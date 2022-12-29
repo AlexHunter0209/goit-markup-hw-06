@@ -390,7 +390,7 @@
             </button>
 
             <form class="form">
-                <span class="form-title">Leave your contacts and we will call you back</span>
+                <p class="form-title">Leave your contacts and we will call you back</p>
                 <div class="form-field">
                     <label class="form-label" for="name">Name</label>
                     <input class="form-input" type="text" name="name" id="name">
@@ -412,9 +412,18 @@
                         <use href="./images/contacts-icons.svg#icon-mail"></use>
                     </svg>
                 </div>
-                <div>
-                    
+                <div class="foem-field">
+                    <label class="comment-label" for="comment">Comment</label>
+                    <textarea class="comment" name="comment" id="comment" rows="9" placeholder="Text input"></textarea>
                 </div>
+                <div class="form-field-checkbox">
+                    <label class="policy-label" for="policy">
+                    <input class="form-checkbox" type="checkbox" name="policy" id="policy">
+                    <span class="icon-checkbox"></span>I accept the terms and conditions of the 
+                    <a class="policy-link" href="">Privacy Policy</a>
+                    </label>
+                </div>
+                <button class="form-btn" type="submit">Send</button>
             </form>
         </div>
     </div>
